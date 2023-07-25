@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY First Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+   </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Ahamad's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftS">
+          Hi,My name is <span class="purple">Ahamad</span>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Github</button>
+          </div>
+        </div>
+        <div class="rightS"><img src="my.JPG" alt="" /></div>
+      </section>
+      <hr />    
+       <section class="secondsection">
+        <span class="text-gray">CERTIFICATIONS &</span>
+        <h1>MY SKILLS</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-title">HTML</div>
+            <div class="vertical-desc">
+              HTML, short for HyperText Markup Language, is the standard markup language used for creating web pages and applications. It provides the structure and organization of content on the World Wide Web. HTML uses a set of tags and attributes to define the elements and their attributes within a web page
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-t2" src="css.png" alt="" />
+            <div class="vertical-title">CSS</div>
+            <div class="vertical-desc">
+              CSS, which stands for Cascading Style Sheets, is a style sheet language used in web development to describe the presentation and formatting of a document written in HTML. CSS allows developers to control the appearance of HTML elements on a web page, including their layout, colors, fonts, sizes, and other visual aspects.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-t3" src="js.png" alt="" />
+            <div class="vertical-title">JAVASCRIPT</div>
+            <div class="vertical-desc">
+              JavaScript is a programming language used in web development to make websites interactive and dynamic by handling user interactions, manipulating content, and communicating with servers.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-t4" src="linux.png" alt="" />
+            <div class="vertical-title">LINUX</div>
+            <div class="vertical-desc">
+              Linux is an open-source operating system kernel that serves as the foundation for various Linux-based operating systems. It was initially developed by Linus Torvalds in 1991 and has since become one of the most popular operating systems for a wide range of devices, including servers, desktop computers, mobile devices, and embedded systems.Linux is known for its stability, security, and flexibility.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-t5" src="mac.png" alt="" />
+            <div class="vertical-title">MAC OS</div>
+            <div class="vertical-desc">
+              Mac OS, now known as macOS, is the proprietary operating system developed by Apple Inc. specifically for their Macintosh line of computers. It is designed to provide an intuitive and seamless user experience, tightly integrated with Apple's hardware and software ecosystem.
+             macOS is built upon a Unix-based foundation, known as Darwin, which incorporates a Mach kernel and various open-source components. It offers a combination of a graphical user interface (GUI) and a command-line interface (CLI), providing users with flexibility and ease of use.
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="ha"><hr></div>
+      <div id="About">
+        <div class="container">
+          <div class="row">
+            <div class="col1">
+              <img src="bk.png" alt="">
+            </div>
+            <div class="col2">
+              <h1 class="sub-title">
+                About Me
+              </h1>
+              <p>Experienced engineer with a passion for technology and a focus on web development. Graduated with a degree in Engineering in 2021 and embarked on a journey in the tech industry. I gained valuable insights and honed my technical skills during my 6-month tenure as an L1 Tech Support professional at MAVENIR Systems. Building upon that experience, I transitioned into web development, spending a rewarding year at VABINOR WEB IT Services, where I contributed to the creation of innovative and user-friendly websites. Skilled in HTML, CSS, and JavaScript, I thrive in collaborative environments and enjoy turning ideas into reality. I am constantly seeking new challenges and opportunities to grow as a professional in the dynamic world of web development."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+
+      </div> 
+     <ul class="social-icon">
+      <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+     </ul>
+     
+        
+    </footer> 
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Designer", "Video Editor","Operating System"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
